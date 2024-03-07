@@ -1,6 +1,7 @@
 ﻿#include <iostream>
-
 using namespace std;
+
+// Print3는 FuncObject 클래스의 객체이며 함수처럼 동작합니다. 
 
 struct FuncObject
 {
