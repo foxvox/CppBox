@@ -3,6 +3,8 @@ using namespace std;
 
 class Point
 {
+	friend const Point operator-(const Point& argL, const Point& argR); 
+
 	int x; 
 	int y;
 
