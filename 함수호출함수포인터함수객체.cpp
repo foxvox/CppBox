@@ -19,7 +19,7 @@ void Print1(int arg)
 
 int main()
 {
-	void (*Print2)(int) = Print1; 
+	void (*Print2)(int) = Print1;   
 	FuncObject Print3; 
 
 	Print1(10);  // 첫째, '함수'를 사용한 정수 출력 
