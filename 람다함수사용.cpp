@@ -1,6 +1,7 @@
 ﻿#include <iostream>
 #include <array>
 #include <algorithm>
+#include <functional>
 
 using namespace std;
 
@@ -40,6 +41,13 @@ int main()
 			cout << num << endl; 
 		}
 	); 
+
+	auto introduce = [](string name)
+		{
+			cout << "My name is " << name << endl;
+		}; 
+
+	introduce("Alex Yun"); 
 
 	return 0;
 }
