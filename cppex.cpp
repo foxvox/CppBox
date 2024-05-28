@@ -16,7 +16,7 @@ void trace(int A[], int N)
 		if (i > 0) printf(" "); 
 		printf("%d", A[i]); 
 	}
-	printf("\n"); 
+	printf("\n");        
 }
 
 void insertionSort(int A[], int N)
